@@ -42,14 +42,14 @@ header h1:after{
     background-color: red;
     margin: auto;
     margin-top: 30px;
- }
+}
 
 .contanier-flex{
     display: flex;
     margin: auto;
     flex-direction:row ;
     justify-content: center;
-        }
+}
 .block2{
     display: block;
     width: 980px;
@@ -75,7 +75,7 @@ nav ul li a{
     font-family: 'Metropolis';
     line-height: 35px;
 
-  }
+}
 li{
     list-style-type: none;
     padding-left: 20px;
@@ -85,10 +85,10 @@ li{
 
 nav ul li img{
     padding-right: 20px;
-   }
+}
 ul :hover {
-       background-color: #ff0000;
-    }
+    background-color: #ff0000;
+}
 nav form{
     float: left;
     width: 190px;
@@ -135,7 +135,7 @@ div .menu:after{
     display: block;
     content:"" ;
     max-width: 900px;
-    height: 3px;
+    height: 2px;
     background-color: #6e7279;
     margin: auto;
     margin-top: 65px;
@@ -168,24 +168,62 @@ h2{
     float: left;
 }
 div .demonstration {
-    padding: 0px 40px;
+    padding: 0 40px;
+    display: inline-block;
 }
 .view1{
+    display: inline-block;
     width:900px;
+    position: relative;
 }
 .view2{
-    padding-top: 35px;
-    width:900px;
-
+    display: inline-block;
+    width: 900px;
+    margin-bottom: 95px;
 
 }
-img .option_1{
+img.big{
+    margin-bottom: 35px;
+}
 
+img.option_1{
+    max-width: 430px;
     float: left;
 
 }
-img .option_2{
-
+img.option_2{
+    max-width: 430px;
     float: right;
+
+}
+
+.arrow{
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 40px solid ;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -17px;
+    margin-top: -40px;
+    cursor: pointer;
+   }
+.page {
+    text-align: center;
+   }
+.page li{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.page li a{
+    color: #0e0c0c;
+    text-decoration: none;
+    font-size: 15px;
+   }
+.page li a:hover{
+    color: white;
 
 }
